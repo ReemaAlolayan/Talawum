@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Members</title>
+  <%- include("header")-%>
+</head>
+
+<body>
+
+  <div class="otherBox">
+
+    <form action="/Members" method="post">
+
+      <label>اسم اللجنه</label>
+      <br>
+
+      <select name="selection">
+        <option>اختار..</option>
+        <option>لجنة التخطيط</option>
+        <option>لجنة التصميم</option>
+        <option>لجنة العلاقات العامه</option>
+        <option>لجنه الاعلام الرقمي</option>
+        <option>لجنة الدعم اللوجستي</option>
+        <option>لجنة كتابة المحتوى</option>
+        <option>لجنة المحتوى المسموع</option>
+        <option>لجنة الجودة</option>
+        <option>لجنة التقنيه</option>
+        <option>لجنة التمكين والرقابه</option>
+
+      </select>
+
+      <br>
+
+      <label>:الاسم</label>
+      <br>
+      <input type="text" name="Name">
+      <br>
+      <label> ما العمل الذي فعلته؟</label>
+      <br>
+      <input type="text" name="Do">
+      <br>
+
+      <label> الوقت الذي استغرقك؟</label>
+      <br>
+      <input type="text" name="Time">
+      <br>
+
+      <label> الوصف</label>
+      <br>
+      <textarea name="discription" rows="5" cols="40"></textarea>
+      <br>
+
+      <button class="btn btn-light btn-sm " type="submit" name="button" style="color: white; background-color:#ECCCB2;">ارسال</button>
+
+    </form>
+  </div>
+
+</body>
+
+
+</html>
+
+
+<%- include("footer")-%>

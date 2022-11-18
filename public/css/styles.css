@@ -1,0 +1,231 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  font-size: 60px;
+ font-family: 'El Messiri', sans-serif;
+ text-align: center;
+  color: white;
+}
+
+label {
+font-family: 'El Messiri', sans-serif;
+  font-size: 20px;
+  color: #ECCCB2;
+}
+
+form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+input {
+  font-family: 'El Messiri', sans-serif;
+
+  margin-bottom: 20px;
+}
+
+select {
+  margin-bottom: 20px;
+}
+
+textarea {
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: 'El Messiri', sans-serif;
+
+  color: #ECCCB2;
+}
+
+hr {
+  border-top: 1px solid #8FE3CF;
+}
+a{
+  font-family: 'El Messiri', sans-serif;
+
+}
+button{
+  font-family: 'El Messiri', sans-serif;
+
+}
+
+
+.flip-card-front {
+  padding-top: 30px;
+}
+
+.infoBox {
+  margin-top: 65px;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+}
+
+.divSuccess {
+  text-align: center;
+}
+
+.otherBox {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.box {
+  padding: 50px;
+}
+
+.btn {
+  margin-left: 10px;
+}
+
+.tryBtn {
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.row {
+  text-align: center;
+}
+
+a:hover {
+  background-color: #DEB6AB;
+}
+
+.link {
+  font-size: 15px;
+  font-family: 'El Messiri', sans-serif;
+  color: #ECCCB2;
+}
+
+.successH1 {
+  color: #8FE3CF;
+  font-size: 60px;
+}
+
+.loginH1 {
+  color: #8FE3CF;
+}
+
+.failH1 {
+  color: #8FE3CF;
+}
+
+.divH1Leader {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 130px;
+  background-color: #8FE3CF;
+  width: 400px;
+  height: 70px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.divMember {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 140px;
+  background-color: #8FE3CF;
+  width: 400px;
+  height: 70px;
+  position: relative;
+}
+
+.img {
+  text-align: center;
+}
+
+.footer-padding {
+  padding-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #8FE3CF;
+}
+
+.footer p {
+  margin-top: 25px;
+  font-size: 12px;
+  color: #fff;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 350px;
+  border: 1px solid #ECCCB2;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: white;
+  color: black;
+}
+
+.flip-card-back {
+  padding-top: 20px;
+  background-color: white;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.centerForFrontCard {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.Color {
+  color: #8FE3CF;
+}
+
+@media (max-width:900px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  .link {
+    font-size: 15px;
+  }
+
+  .divH1Leader {
+    width: 300px;
+    height: 70px;
+  }
+
+  .divMember {
+    width: 300px;
+    height: 70px;
+  }
+}
